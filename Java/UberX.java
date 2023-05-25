@@ -8,4 +8,7 @@ class UberX extends Car{
         this.model = model;
 
     }
+    void printDataCar(){
+        System.out.println("Car license: " + drive.license + "Name driver " + drive.name + "PAssenger"+ driver.passenger);        
+    }
 }
